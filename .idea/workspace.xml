@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8b1af4a-936f-489e-ab7c-298acbc87d4e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c6XReRU4ESlYotQ15cQ1vTw8ba" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\projects\svn\jindian\pages\goodsExchangeRecovery" />
+      <recent name="D:\projects\projects\svn\jindian\pages\orderDetail" />
+      <recent name="D:\projects\projects\svn\jindian\static\images" />
+      <recent name="D:\projects\projects\svn\jindian\pages\orderList" />
+      <recent name="D:\projects\projects\svn\jindian" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\xs\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8b1af4a-936f-489e-ab7c-298acbc87d4e" name="Default Changelist" comment="" />
+      <created>1589850009782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589850009782</updated>
+      <workItem from="1589850015989" duration="5958000" />
+      <workItem from="1589941335343" duration="11393000" />
+      <workItem from="1589958175094" duration="25358000" />
+      <workItem from="1590367991911" duration="749000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2055" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589942278142">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2055" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589942278142" />
+    <state x="2075" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1589958103506">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2075" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589958103506" />
+    <state x="2079" y="210" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590040545433">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2079" y="210" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590040545433" />
+    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1590368685775">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590368685775" />
+    <state x="1827" y="162" key="SettingsEditor" timestamp="1589958559386">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1827" y="162" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589958559386" />
+    <state x="1982" y="240" key="run.anything.popup" timestamp="1589961978476">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1982" y="240" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589961978476" />
+    <state x="1989" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589955633281">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1989" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589955633281" />
+    <state x="2156" y="311" width="674" height="418" key="svn.repositoryBrowser" timestamp="1590368647358">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2156" y="311" width="674" height="418" key="svn.repositoryBrowser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590368647358" />
+    <state x="2134" y="424" key="svn.upgradeDialog" timestamp="1590368694325">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2134" y="424" key="svn.upgradeDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590368694325" />
+    <state x="2091" y="385" key="svn4idea.checkout.options" timestamp="1590368691012">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2091" y="385" key="svn4idea.checkout.options/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590368691012" />
+    <state x="2270" y="284" key="svn4idea.import.options" timestamp="1590368572583">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2270" y="284" key="svn4idea.import.options/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590368572583" />
+  </component>
+</project>

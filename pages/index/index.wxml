@@ -1,0 +1,34 @@
+<view class="container">
+    <view class='img-wrap'>
+        <image src="{{imgUrls}}" class="slide-image"/>
+    </view>
+    <view class="recommend-title">商品回收兑换</view>
+    <view class="listornolist-wrap">
+         <view class="no-order" hidden="{{orderList.length == 0 ? false : true}}">
+          <image src="./../../static/images/l06_img.png" class="no-order-img"></image>
+          <view class="text">暂无信息</view>
+      </view>
+            <view class="header" hidden="{{hideHeader}}">
+            <view>下拉刷新中……</view>
+            <view>{{refreshTime}}</view>
+    </view>
+        <scroll-view style="height:{{scrollHeight}}" scroll-y="true" bindscrolltoupper="refresh" bindscrolltolower="loadMore">
+
+            <view class="list" >
+              <view class="a-order" wx:for-items="{{orderList}}" wx:key="id" data-taskmessid="{{item.taskmessId}}">
+                <view class="info-img">
+                  <image class="imgstyle" src="{{item.logo}}" bindtap="previewImage"></image>
+                </view>
+                <view class="info-box-mid">
+                  <view class="info-box-title">{{item.title}}</view>
+                  <!--<view class="info-box-com">{{item.companyname}}</view>-->
+                </view>
+              </view>
+            </view>
+        </scroll-view>
+        <view class="bottom" hidden="{{hideBottom}}">
+            <view>{{loadMoreData}}</view>
+            <view>{{refreshTime}}</view>
+      </view>
+    </view>
+</view>

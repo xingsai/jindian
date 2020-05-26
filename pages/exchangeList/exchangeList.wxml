@@ -1,0 +1,58 @@
+<import src="../../component/nullTip/nullTip.wxml"/>
+<view class="tab">
+    <view class="tab-header">
+        <view class="tab-header-item {{show == tabitem.id ? 'tab-header-active' : ''}}"   wx:for="{{tabsList}}"  wx:key="tabitem" wx:for-item="tabitem" data-type="{{tabitem.id}}"  bindtap="changeViewType">{{tabitem.name}}</view>
+
+    </view>
+    <view class="tab-content">
+        <view class="" >
+            <block wx:if="{{orderList.length == 0}}">
+                <template is="nullTip" data="{{nullTip: nullTip}}"/>
+            </block>
+            <block wx:else>
+                <block wx:for="{{orderList}}" wx:for-item="orderItem" wx:for-index="orderIndex" wx:key="orderList">
+                   <view class="list-one">
+                       <view class="list-one">
+                           <view class="list-time txt-style">
+                               {{orderItem.timeOOO}}
+                           </view>
+                           <view style="margin:10rpx 0;">
+                               <view class="list-one-line">
+                                   <view class="txt-style">
+                                       {{orderItem.nameooo}}
+                                   </view>
+                                   <view class="txt-style">
+                                       {{orderItem.prizeooo}}
+                                   </view>
+                               </view>
+                               <view class="list-one-line">
+                                   <view class="txt-gray-style">
+                                       {{orderItem.companyooo}}
+                                   </view>
+                                   <view class="txt-gray-style">
+                                      回收价： {{orderItem.backprizeoo}}
+                                   </view>
+                               </view>
+                           </view>
+
+                           <view class="list-one-line list-bottom-control">
+                               <view class="txt-gray-style" wx:if="{{orderItem.statusooo==1}}">
+                                  处理中
+                               </view>
+                               <view class="txt-gray-style" wx:elif="{{orderItem.statusooo==2}}">
+                                   成功
+                               </view>
+                               <view class="txt-gray-style" wx:else>
+                                   失败
+                               </view>
+                               <view class="btn-style" data-id="{{orderItem.id000}}" bindtap="goOrderDetail">
+                                  查看
+                               </view>
+                           </view>
+                       </view>
+                   </view>
+                </block>
+            </block>
+        </view>
+    </view>
+</view>

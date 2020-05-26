@@ -1,0 +1,67 @@
+
+<view class="container">
+    <view class='img-wrap'>
+        <image src="./../../static/images/orderDetailImg.png" class="slide-image"/>
+    </view>
+    <view class="goods-info-wrap">
+        <view class="title">
+            商品信息
+        </view>
+        <view class="content f-c-wrap">
+            <view class="goods-img-wrap">
+                <image src="{{orderInfo.imgUrls}}" class="slide-image"/>
+            </view>
+            <view class="goods-info-one ">
+                <view class="goods-name txt-style">{{orderInfo.nameooo}}</view>
+                <view class="goods-price txt-style">{{orderInfo.prizeooo}}</view>
+                <view class="goods-backPrice txt-gray-style">回收价：{{orderInfo.backprizeoo}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="goods-info-wrap">
+        <view class="title">
+            订单详情
+        </view>
+        <view class="list-one">
+            <view class="label-info">订单号</view>
+            <view class="info-content">{{orderInfo.backprizeoo}} </view>
+        </view>
+        <view class="list-one">
+            <view class="label-info">下单时间</view>
+            <view class="info-content">{{orderInfo.backprizeoo}} </view>
+        </view>
+        <view wx:if="1">
+            <view class="list-one">
+                <view class="label-info">卡号ID</view>
+                <view class="info-content">{{orderInfo.backprizeoo}} </view>
+            </view>
+            <view class="list-one">
+                <view class="label-info">密钥</view>
+                <view class="info-content">{{orderInfo.backprizeoo}} </view>
+            </view>
+        </view>
+        <view  ><!--wx:else-->
+            <view class="list-one">
+                <view class="label-info">姓名</view>
+                <view class="info-content">{{orderInfo.backprizeoo}} </view>
+            </view>
+            <view class="list-one">
+                <view class="label-info">手机号</view>
+                <view class="info-content">{{orderInfo.backprizeoo}} </view>
+            </view>
+            <view class="list-one">
+                <view class="label-info">物流单号</view>
+                <view class="info-content">{{orderInfo.backprizeoo}} </view>
+            </view>
+            <view class="list-one no-border">
+                <view class="label-info">订单截图</view>
+                <view class="info-content">
+                    <view class="goods-img-wrap">
+                        <image src="{{orderInfo.imgUrls}}" data-src="{{orderInfo.imgUrls}}" bindtap="previewImage" class="slide-image"/>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+</view>

@@ -1,0 +1,94 @@
+<import src="../../lib/wxParse/wxParse.wxml"/>
+<view class="container">
+    <swiper class='img-wrap'>
+        <block wx:for="{{orderInfo.imgUrls}}" wx:key="item">
+            <swiper-item>
+                <view class="swiper-img-wrap">
+                    <image src="{{item}}"/>
+                </view>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="goods-info-wrap">
+        <view class=" txt-style goods-name">{{orderInfo.nameooo}}</view>
+        <view class="goods-price txt-style">{{orderInfo.prizeooo}}</view>
+        <view class="goods-backPrice ">{{orderInfo.backprizeoo}}</view>
+        <view class="f-a-wrap btn-wrap">
+            <view class="btn-style" data-id="{{orderItem.id000}}" bindtap="goExchange">马上兑换</view>
+            <view class="btn-style" data-id="{{orderItem.id000}}" bindtap="gobaodan">报单</view>
+        </view>
+    </view>
+    <view class="goods-info-wrap">
+        <view class="title">
+            商品简介
+        </view>
+        <view>
+            <template is="wxParse" data="{{wxParseData:dddd.nodes}}"/>
+        </view>
+    </view>
+    <view class="model-style" hidden="{{bandan}}">
+        <view class="content-wrap">
+            <view class="title">报单</view>
+            <view class="tip-content">
+                <radio-group bindchange="radioChange" class="f-wrap">
+                    <label class="radio f-wrap">
+                        <radio class='radio-style' color='#fff' value="1" checked="true"/>
+                        <view style="margin-left:10rpx;">电子卡片</view>
+                    </label>
+                    <label class="radio f-wrap" style="margin-left:30rpx;">
+                        <radio class='radio-style' color='#fff' value="2"/>
+                        <view style="margin-left:10rpx;">实物商品</view>
+                    </label>
+                </radio-group>
+            </view>
+            <view wx:if="{{checkedType==1}}" class="submit-info-wrap">
+                <view class="input-label">商品名称</view>
+                <view class="input-wrap">
+                    <input class="weui-input" maxlength="30" placeholder="商品名称"/>
+                </view>
+                <view class="input-label">卡号ID</view>
+                <view class="input-wrap">
+                    <input class="weui-input"  maxlength="30" placeholder="卡号ID"/>
+                </view>
+                <view class="input-label">密钥</view>
+                <view class="input-wrap">
+                    <input class="weui-input" password  maxlength="30" placeholder="密钥"/>
+                </view>
+            </view>
+            <view wx:else>
+                <view class="input-label">姓名</view>
+                <view class="input-wrap">
+                    <input class="weui-input" maxlength="10" placeholder="商品名称"/>
+                </view>
+                <view class="input-label">手机号</view>
+                <view class="input-wrap">
+                    <input class="weui-input"  type="number" maxlength="11" placeholder="手机号"/>
+                </view>
+                <view class="input-label">物流单号</view>
+                <view class="input-wrap">
+                    <input class="weui-input" password  maxlength="30" placeholder="物流单号"/>
+                </view>
+                <view class="input-label">订单截取（选填）</view>
+                <view>
+                    <view class="btn-upload-img"  bindtap="chooseImage">上传照片</view>
+                </view>
+                <view class="question-images clearFloat">
+                <block wx:for="{{images}}" wx:key="*this">
+                    <view class="q-image-wrap">
+                        <!-- 图片缩略图  -->
+                        <image class="q-image" src="{{item}}" mode="aspectFill" data-idx="{{index}}" bindtap="handleImagePreview"></image>
+                        <!-- 移除图片的按钮  -->
+                        <view class="q-image-remover" data-idx="{{index}}" bindtap="removeImage">
+                            <icon class='iconfont icon-guanbi' type="cancel" size="23"></icon>
+                        </view>
+                    </view>
+                </block>
+                </view>
+            </view>
+
+            <view class="btn-style-wrap-wrap">
+                <button class="btn-submit-style" bindtap="goSubmit">提交</button>
+            </view>
+        </view>
+    </view>
+</view>

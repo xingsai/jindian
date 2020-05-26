@@ -1,0 +1,42 @@
+/**app.wxss**/
+.container {
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  font-family: PingFangSC-Light,helvetica,'Heiti SC';
+} 
+
+view,image,text,navigator{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+
+}
+image{
+  height:100%;
+  width:100%;
+  display: block;
+}
+
+view,text{
+  font-family: PingFangSC-Light,helvetica,'Heiti SC';
+  font-size: 29rpx;
+  color: #333;
+}
+.f-wrap{
+  display: flex;
+}
+.f-c-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-b-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f-a-wrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
