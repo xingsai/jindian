@@ -18,6 +18,7 @@ function hideLoading() {
 module.exports =  {
   ajax:function(url, data, loading, success) {
     console.log("请求参数:\n" + data);
+    
     //如果需要loading则显示
     if (loading) {
       showLoading();
